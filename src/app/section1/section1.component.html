@@ -1,0 +1,93 @@
+<div class="container p-4 md:p-8 lg:p-24 w-full text-white">
+    <div class="container">
+            <span class="text-4xl">Comienzos de la Exploración Espacial</span>
+        <div class="p-4 lg:flex space-x-8">
+            <div class="sm:w-full lg:w-1/2">
+                <p class="text-lg text-justify">
+                    La exploración espacial se refiere a los esfuerzos del hombre por estudiar el espacio 
+                    y sus estrellas desde un punto de vista científico y sus usos económicos. 
+                    Estos esfuerzos pueden incluir seres humanos que viajen en la nave espacial 
+                   , así como satélites con recursos de telemetría o sondas teleguiadas transmitidas (orbitando o aterrizando en la superficie de estos cuerpos celestes) a otros 
+                    planetas.</p>
+            </div>
+            <div class="md:w-full lg:w-1/2 h-full">
+                <img src="https://www.enter.co/wp-content/uploads/2019/05/Astronauta-768x432.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="p-4">
+            <p class="text-lg text-justify">
+                Históricamente, la exploración espacial comenzó con el lanzamiento del satélite artificial Sputnik 
+                por parte de la Unión Soviética el 4 de octubre de 1957 en el cosmódromo de Baikonur 
+                (el sitio de lanzamiento de misiles de la Unión Soviética) en Tyuratam, Kazajstán. 
+                Este evento desató una carrera espacial para conquistar el espacio entre la Unión Soviética
+                y Estados Unidos, que culminó con la llegada de la humanidad a la luna.
+            </p>
+            <p class="text-lg text-justify">
+                El primer ser vivo en el espacio no fue humano, sino la perra soviética Laika. 
+                Llegó al espacio en 1957 a bordo de la nave espacial Sputnik II, y tristemente murió pocas
+                 horas después, debido al calor en la reentrada.
+            </p>
+            <p class="text-lg text-justify">
+                El soviético Yuri Gagarin fue el primer ser humano en el espacio, en un vuelo orbital de 48 minutos,
+                 a bordo de la nave Vostok 1. El vuelo de Gagarin se efectuó el 12 de abril de 1961 y fue considerado un
+                 hito gigante para la unión Soviética. 
+            </p>
+            <p class="text-lg text-justify">
+                El soviético Yuri Gagarin fue el primer ser humano en el espacio, en un vuelo orbital de 48 minutos,
+                 a bordo de la nave Vostok 1. El vuelo de Gagarin se efectuó el 12 de abril de 1961 y fue considerado un
+                 hito gigante para la unión Soviética. 
+            </p>
+            <p class="text-lg text-justify">
+                Del otro lado del mundo, Estados Unidos sentía que se quedaba atrás por lo que decidió responder mandando satélites
+                casi a la par que la Unión Soviética, sin embargo, no sería hasta abril del mismo año (1961) que los Estados Unidos 
+                pudieron poner a su primer ciudadano en órbita espacial. De igual manera, durante ese tiempo fue cuando John F. Kennedy
+                se comprometería a enviar hombres a la Luna y a traerlos de vuelta antes de que la década terminara. 
+            </p>
+
+        </div>
+        <div class="p-4 lg:flex space-x-8">
+            <div class="md:w-full lg:w-1/2 h-full">
+                <img src="https://www.enter.co/wp-content/uploads/2019/05/Astronauta-768x432.jpg">
+            </div>
+            <div class="sm:w-full lg:w-1/2">
+                <p class="text-lg text-justify">
+                    Fue así como Estados Unidos invirtió más que nunca en su programa espacial iniciando las misiones 
+                    Apolo, con las que eventualmente llegarían a la Luna (Apolo 11). A pesar de haber ganado la carrera
+                    y mostrar superioridad, durante las siguientes décadas se mantuvo el interés por seguir explorando la
+                    Luna y otros cuerpos celestes.
+                </p>
+            </div>
+            
+        </div>
+        <div class="container p-4">
+            <p class="text-lg text-justify">
+                A pesar de que la misión del Apolo 11 se considera un éxito, no debemos de ignorar los accidentes que 
+                tuvieron que ocurrir para que nuestra especie tocara la Luna. Desde la catastrófica explosión del Challenger
+                en 1986 hasta accidentes soviéticos como el accidente de Nedelin, cuya explosión mató a ciéntíficos y técnicos
+                Rusos. De igual manera, aún después de los éxitos del 69, años depués continuaron ocurriendo accidentes y de entre 
+                ellos podemos destacar el del famoso Apolo 13, donde después de un cortocircuito en un tanque de oxígeno, se tuvo que
+                regresar a la tierra, abortando el camino que tenían dirigiéndose a la Luna. Dicho accidente dio lugar 
+                a la icónica frase "Houston, tenemos un problema aquí", dicha por el astronauta Jack Swigert. Afortunadamente, los
+                tripulantes pudieron volver a casa sanos y salvos.
+             </p>
+        </div>
+    </div>
+    <div class="flex mx-auto container">
+        <div *ngIf="current %2 ==0" class="m-auto">
+            <button class="rounded-md shadow-md font-bold mx-auto p-2 bg-yellow-600 text-white">
+                <a href="https://angular.io/guide/event-binding">
+                    Ir al bot par
+                </a>
+            </button>
+        </div>
+        <div *ngIf="current %2 != 0" class="m-auto">
+            <button class="rounded-md shadow-md font-bold mx-auto p-2 bg-yellow-600 text-white">
+                <a href="https://angular.io/guide/event-binding">
+                    Ir al bot impar
+                </a>
+            </button>
+        </div>
+    </div>
+</div>
