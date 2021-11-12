@@ -1,0 +1,13 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /(.*\.(gif|png|jpeg|jpg|css|js|ico|otf|ttf|svg|woff))$
+  static_files: dist/frontend/\1
+  upload: dist/frontend/(.*)
+  secure: always
+- url: /(.*)
+  static_files: dist/frontend/index.html
+  upload: dist/frontend/index.html
+  secure: always

@@ -13,6 +13,7 @@ import { Section1Component } from './section1/section1.component';
 import { Section2Component } from './section2/section2.component';
 import { Section3Component } from './section3/section3.component';
 import { Section4Component } from './section4/section4.component';
+import { YouTubePlayerModule } from '@angular/youtube-player';
 
 @NgModule({
   declarations: [
@@ -23,13 +24,14 @@ import { Section4Component } from './section4/section4.component';
     Section1Component,
     Section2Component,
     Section3Component,
-    Section4Component
+    Section4Component,
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     FontAwesomeModule,
-    AppRoutingModule
+    AppRoutingModule,
+    YouTubePlayerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
